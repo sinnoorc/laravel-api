@@ -25,7 +25,7 @@ class ApiController extends Controller
         if ($data->save()) {
             return response()->json(['status' => 'success', 'message' => 'User registered successfully']);
         } else {
-            return response()->json(['status' => 'failed', 'message' => 'Error']);
+            return response()->json(['status' => 'dfdfdfdf', 'message' => 'Error']);
         }
     }
 
